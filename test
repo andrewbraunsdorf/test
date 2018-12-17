@@ -1,0 +1,22 @@
+let paintColor = ["red", "blue", "green", "grey"];
+var room = ["bedroom", "bathroom", "hallway", "livingroom"];
+
+console.log( paintColor[0]);
+
+console.log( paintColor[1]);
+console.log( paintColor[2]);
+console.log( paintColor[3]);
+paintColor[4] = "lemon";
+console.log( paintColor[4]);
+console.log( paintColor.length);
+
+
+
+for (i=0; i < company.length; i++) {
+     var result = company[i] + phone[i] + price[i] * unitSales[i];
+     
+     console.log(result);
+     
+     var months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 0, "Feb");
+months.splice(4, 1, "May");
